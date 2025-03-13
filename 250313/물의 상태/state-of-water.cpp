@@ -12,7 +12,7 @@ int main()
     else if (n>100){
         cout << "vapor";
     }
-    else if (0<=n<=100){
+    else if (0<n<100){
         cout << "water";
     }
     return 0;
