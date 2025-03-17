@@ -10,7 +10,8 @@ int MAX(int n)
     if(n==0){
         return arr[0];
     }
-    return (MAX(n-1)>arr[n]? MAX(n-1):arr[n]);
+    int a =  MAX(n-1);
+    return (a>arr[n]? a:arr[n]);
 }
 int main() 
 {
