@@ -1,5 +1,5 @@
 #include <iostream>
-#include <list> //list를 사용하기 위한 헤더
+#include <list> //이중연결리스트를 사용하기 위한 헤더
 using namespace std;
 
 int main()
