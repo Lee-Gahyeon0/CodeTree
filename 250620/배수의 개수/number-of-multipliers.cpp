@@ -12,11 +12,11 @@ int main() {
         if(a%3==0){
             total_3 += 1;
         }
-        else if(a%5==0){
+        if(a%5==0){
             total_5 += 1;
         }
     }
-    cout << total_3 << " " << totla_5;
+    cout << total_3 << " " << total_5;
 
     return 0;
 }
