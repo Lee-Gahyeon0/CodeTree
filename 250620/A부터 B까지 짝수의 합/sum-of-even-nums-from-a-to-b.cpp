@@ -6,12 +6,12 @@ int main() {
     int c=0;
 
     cin >> a >> b;
-    for (int i = a, i <=b, i++){
+    for (int i = a; i <=b; i++){
         if(i%2==0){
             c +=i;
         }
     }
     cout << i;
-    
+
     return 0;
 }
