@@ -7,9 +7,9 @@ int main() {
 
     int arr[n];
 
-    for(int i=1;i<=n;i++){
+    for(int i=0;i<n;i++){
         cin >> arr[i];
-        if(arr[i]%3==0){
+        if(arr[i]%3==0 && arr[i]%2!=0){
             cout << arr[i] << endl;
         }
     }
