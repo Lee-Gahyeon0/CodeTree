@@ -6,12 +6,13 @@ int main() {
     int cnt=0;
     cin >> n;
 
-    int i=1;
-    while(n/i>=1){
+    for(int i=1;i<=100;i++){
+        n=n/i;
         cnt++;
-        i++;
+        if(n<=1){
+            break;
+        }
     }
-
     cout << cnt;
     return 0;
 }
