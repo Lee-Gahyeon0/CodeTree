@@ -6,7 +6,7 @@ int main() {
     cin >> n;
     
     for(int i=0;i<n*2;i+=2){
-        for(int j=11;j<=n*2+10;j+=2){
+        for(int j=11;j<=n*2+9;j+=2){
             cout << j+i << " ";
         }
         cout << endl;
