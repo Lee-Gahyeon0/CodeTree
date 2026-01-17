@@ -20,8 +20,8 @@ int main() {
 				cout << cnt << " ";
                 cnt+=2;
 			}
-		}
-        cnt--;
+		    cnt--;
+        }
         cout << endl;
 	}
 
