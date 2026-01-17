@@ -12,8 +12,8 @@ int main() {
 			}
 		}
 		else {
-			for (int j = 1; j <= n; j++) {
-				cout << 3 - j;
+			for (int j = 0; j < n; j++) {
+				cout << n - j;
 			}
 		}
 		cout << endl;
