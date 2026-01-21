@@ -2,14 +2,17 @@
 using namespace std;
 
 int main() {
-    char arr[10];
+	char a[10];
 
-    for(int i=0;i<10;i++){
-        cin >> arr[i];
-    }
+	for (int i = 0; i < 10; i++) {
+		cin >> a[i];
+	}
 
-    for(int J=9;J>=0;J++){
-        cout << arr[J];
-    }
-    return 0;
+	for (int i = 9; i >= 0; i--) {
+		cout << a[i];
+	}
+
+	return 0;
+
 }
+
