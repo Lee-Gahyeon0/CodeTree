@@ -3,7 +3,6 @@ using namespace std;
 
 int main() {
     int n;
-    int arr[100];
     int cnt[10]={0,0,0,0,0,0,0,0,0,0};
 
     for(int i=0;i<100;i++){
@@ -14,33 +13,32 @@ int main() {
         if(n<=10){
             continue;
         }
-        arr[i]=n/10;
 
-        if(arr[i]==1){
+        if(n/10==1){
             cnt[0]++;
         }
-        else if(arr[i]==2){
+        else if(n/10==2){
             cnt[1]++;
         }
-        else if(arr[i]==3){
+        else if(n/10==3){
             cnt[2]++;
         }
-        else if(arr[i]==4){
+        else if(n/10==4){
             cnt[3]++;
         }
-        else if(arr[i]==5){
+        else if(n/10==5){
             cnt[4]++;
         }
-        else if(arr[i]==6){
+        else if(n/10==6){
             cnt[5]++;
         }
-        else if(arr[i]==7){
+        else if(n/10==7){
             cnt[6]++;
         }
-        else if(arr[i]==8){
+        else if(n/10==8){
             cnt[7]++;
         }
-        else if(arr[i]==9){
+        else if(n/10==9){
             cnt[8]++;
         }
         else{
