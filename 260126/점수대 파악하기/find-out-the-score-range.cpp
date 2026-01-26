@@ -11,6 +11,9 @@ int main() {
         if(n==0){
             break;
         }
+        if(n<=10){
+            continue;
+        }
         arr[i]=n/10;
 
         if(arr[i]==1){
