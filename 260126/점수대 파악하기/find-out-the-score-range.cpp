@@ -10,7 +10,7 @@ int main() {
         if(n==0){
             break;
         }
-        if(n<=10){
+        if(n<10){
             continue;
         }
 
