@@ -47,7 +47,7 @@ int main() {
         
 
     for(int j=9;j>=0;j--){
-        cout << j+1 << "0 - " << cnt[j] <<  endl;
+        cout << (j+1)*10 << " - " << cnt[j] <<  endl;
     }
     return 0;
 }
