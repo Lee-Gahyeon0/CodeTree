@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    int cnt[9]={0,0,0,0,0,0,0,0,0};
+    int arr[100];
+    cin >> n;
+
+    for(int i=0;i<n;i++){
+        cin >> arr[i];
+        if(arr[i]==1){
+            cnt[0]++;
+        }
+        else if(arr[i]==2){
+            cnt[1]++;
+        }
+        else if(arr[i]==3){
+            cnt[2]++;
+        }
+        else if(arr[i]==4){
+            cnt[3]++;
+        }
+        else if(arr[i]==5){
+            cnt[4]++;
+        }
+        else if(arr[i]==6){
+            cnt[5]++;
+        }
+        else if(arr[i]==7){
+            cnt[6]++;
+        }
+        else if(arr[i]==8){
+            cnt[7]++;
+        }
+        else if(arr[i]==9){
+            cnt[8]++;
+        }
+    }
+
+    for(int j=0;j<9;j++){
+        cout << cnt[j] <<  endl;
+    }
+    return 0;
+}
