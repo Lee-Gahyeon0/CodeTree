@@ -7,7 +7,7 @@ int main() {
     int idx = -1;
 
     cin >> a;
-    for(int i=0;i<5;i++){
+    for(int i=0;i<6;i++){
         if(word[i]==a){
             idx=i;
         }
