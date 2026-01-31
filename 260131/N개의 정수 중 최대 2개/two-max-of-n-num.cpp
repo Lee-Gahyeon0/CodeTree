@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
     int n;
-    int M=2147483647;
     int arr[100];
     cin >> n;
 
