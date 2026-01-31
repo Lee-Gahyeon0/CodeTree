@@ -14,7 +14,7 @@ int main() {
         cin >> num;
         if(num==1){
             cin >> a;
-            cout << arr[a-1];
+            cout << arr[a-1] << endl;
         }
 
         else if(num==2){
@@ -23,14 +23,18 @@ int main() {
             for(int k=0;k<n;k++){
                 if(arr[k]==b){
                     cout << k+1;
+                    cout << endl;
                     cnt++;
-                    break;
+                    if(cnt>=1){
+                        break;
+                    }
                 }
             }
 
-            if(cnt=0){
-                cout << "0";
+            if(cnt==0){
+                cout << "0" << endl;
             }
+            cnt=0;
         }
 
         else{
@@ -38,8 +42,8 @@ int main() {
             for(int k=s-1;k<e;k++){
                 cout << arr[k] << " ";
             }
+            cout << endl;
         }
-        cout << endl;
     }
 
     return 0;
