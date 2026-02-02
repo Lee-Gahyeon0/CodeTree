@@ -17,12 +17,14 @@ int main() {
     for(int i=n-1;i>=0;i--){
         bool fin=false;
 
-        if(i<n-1 && arr[i]==arr[i-1]){
+        if(i>0 && arr[i]==arr[i-1]){
             fin=true;
         }
-        if(i>0 && arr[i]==arr[i+1]){
+
+        if(i<n-1 && arr[i]==arr[i+1]){
             fin=true;
         }
+        
 
         if(!fin){
             cout << arr[i];
