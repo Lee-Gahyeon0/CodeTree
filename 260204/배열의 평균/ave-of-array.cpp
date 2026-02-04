@@ -19,7 +19,7 @@ int main() {
             sum+=arr[i][j];
         }
         total+=sum;
-        cout << sum/4.0 << " ";
+        cout << sum/4 << " ";
         sum=0;
     }
     cout << endl;
@@ -28,11 +28,11 @@ int main() {
         for(int j=0;j<2;j++){
             sum+=arr[j][i];
         }
-        cout << sum/2.0 << " ";
+        cout << sum/2 << " ";
         sum=0;
     }
     cout << endl;
-    cout << total/8.0;
+    cout << total/8;
 
 
     return 0;
