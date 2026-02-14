@@ -5,7 +5,6 @@ using namespace std;
 int main() {
     string a,b;
     cin >> a;
-    b+=a[0];
 
 
     char target=a[0];
@@ -16,16 +15,16 @@ int main() {
         }
         
         else{
-            b+=to_string(cnt);
-            cnt=1;
-            target=a[i];
             b+=target;
+            b+=to_string(cnt);
+
+            target=a[i];
+            cnt=1;
         }
 
-        if(i==a.length()-1){
-            b+=to_string(cnt);
-        }
     }
+    b += target;
+    b += to_string(cnt);
 
     cout << b.length() << endl;
     cout << b;
