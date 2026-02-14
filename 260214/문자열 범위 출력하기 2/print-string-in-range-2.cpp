@@ -11,6 +11,10 @@ int main() {
     for(int i=arr.length()-1;cnt!=n;i--){
         cout << arr[i];
         cnt++;
+
+        if(arr[i]==arr[0]){
+            break;
+        }
     }
     return 0;
 }
