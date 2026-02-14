@@ -8,7 +8,7 @@ int main() {
     cin >> arr >> n;
 
     int cnt=0;
-    for(int i=arr.length()-1;cnt!=11;i--){
+    for(int i=arr.length()-1;cnt!=n;i--){
         cout << arr[i];
         cnt++;
     }
