@@ -1,23 +1,24 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
     int n;
-    string arr[10],total;
+    string a;
+    string total="";
 
     cin >> n;
 
     for(int i=0;i<n;i++){
-        cin >> arr[i];
-        total+=arr[i];
-        
+        cin >> a;
+        total+=a;
     }
 
-    for(int i=0;arr[i]!=' ';i++){
-        for(int j=0;j<5;j++){
-            cout << total[i];
+    for(int i=0;i<total.length();i++){
+        cout << total[i];
+        if((i+1)%5==0){
+            cout << endl;
         }
-        cout << endl;
     }
     
     
