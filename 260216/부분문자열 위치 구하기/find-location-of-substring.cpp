@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 	string s;
-    char a;
+    string a;
     cin >> s >> a;
 	int start_idx = -1;
 
