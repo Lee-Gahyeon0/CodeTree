@@ -11,7 +11,7 @@ int main() {
     int l=s.length();
     for(int i=0;i<l-1;i++){
         cin >> a;
-        if(a>s.length()){
+        if(a>=s.length()){
             s.erase(s.length()-1,1);
         }
         else{
